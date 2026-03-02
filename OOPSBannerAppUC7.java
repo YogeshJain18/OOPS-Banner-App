@@ -1,6 +1,6 @@
 public class OOPSBannerApp {
 
-    // Static Inner Class to store character and its pattern
+  
     static class CharacterPattern {
         private char character;
         private String[] pattern;
@@ -21,7 +21,6 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Create pattern objects
         CharacterPattern O = new CharacterPattern('O', new String[]{
                 " ***** ",
                 "*     *",
@@ -52,10 +51,10 @@ public class OOPSBannerApp {
                 " ***** "
         });
 
-        // Word to print
+      
         CharacterPattern[] word = {O, O, P, S};
 
-        // Build banner using stored mappings
+       
         for (int row = 0; row < 7; row++) {
             StringBuilder line = new StringBuilder();
 
@@ -66,4 +65,5 @@ public class OOPSBannerApp {
             System.out.println(line);
         }
     }
+
 }
