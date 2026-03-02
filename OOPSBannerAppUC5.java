@@ -2,7 +2,7 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Declare and initialize array in a single statement - FIXED VERSION
+    
         String[] banner = {
             String.join("", " *****  ", "   ", " *****  ", "  ", "*****   ", "  ", " *****  "),
             String.join("", "*     * ", "   ", "*     * ", "  ", "*    *  ", "  ", "*     * "),
@@ -13,9 +13,9 @@ public class OOPSBannerApp {
             String.join("", " *****  ", "   ", " *****  ", "  ", "*       ", "  ", " *****  ")
         };
 
-        // Loop to print banner
         for (String line : banner) {
             System.out.println(line);
         }
     }
+
 }
