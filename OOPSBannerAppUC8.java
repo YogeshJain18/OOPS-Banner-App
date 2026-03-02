@@ -6,10 +6,10 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Create Map to store character patterns
+
         Map<Character, String[]> patternMap = new HashMap<>();
 
-        // Add patterns to the map
+       
         patternMap.put('O', new String[]{
                 " ***** ",
                 "*     *",
@@ -40,10 +40,10 @@ public class OOPSBannerApp {
                 " ***** "
         });
 
-        // Word to render
+      
         String word = "OOPS";
 
-        // Render banner using Map lookup
+  
         for (int row = 0; row < 7; row++) {
 
             StringBuilder line = new StringBuilder();
@@ -56,4 +56,5 @@ public class OOPSBannerApp {
             System.out.println(line);
         }
     }
+
 }
